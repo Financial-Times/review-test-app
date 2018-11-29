@@ -5,3 +5,4 @@ knex({
 })
 console.log(knex)
 console.log('Done!')
+console.log(process.env.FOO)
