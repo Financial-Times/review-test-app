@@ -1,6 +1,7 @@
 {
   "name": "review-test-app",
   "scripts": {
+    "test": "node index.js"
   },
   "env": {
   },
