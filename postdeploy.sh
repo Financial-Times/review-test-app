@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "From postdeploy.sh"
+echo From postdeploy.sh"
