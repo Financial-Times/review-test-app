@@ -1,1 +1,6 @@
-console.log('from test.js 3')
+const knex = require('knex');
+knex({
+  client: 'pg',
+  connection: process.env.DATABASE_URL,
+})
+console.log(knex)
