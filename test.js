@@ -1,1 +1,1 @@
-console.log('from test.js')
+console.log('from test.js 2')
