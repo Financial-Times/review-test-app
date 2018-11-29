@@ -4,3 +4,4 @@ knex({
   connection: process.env.DATABASE_URL,
 })
 console.log(knex)
+console.log('Done!')
