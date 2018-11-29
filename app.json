@@ -4,6 +4,9 @@
     "postdeploy": "node test.js"
   },
   "env": {
+    "FOO": {
+      "required": true
+    }
   },
   "formation": {
     "web": {
