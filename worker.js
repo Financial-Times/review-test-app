@@ -1,2 +1,5 @@
 console.log('From Worker')
-process.exit(1)
+setTimeout(() => {
+  console.log('Inside timeout')
+  process.exit(0)
+}, 10000)
